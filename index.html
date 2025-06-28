@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Leaflet Map</title>
+
+    <!-- 1. Leaflet CSS file -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+
+    <!-- 2. Our custom CSS for the map container -->
+    <style>
+        #map { 
+            height: 100vh; /* vh stands for "viewport height". 100vh is full screen height */
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 3. The map container -->
+    <div id="map"></div>
+
+    <!-- 4. Leaflet JavaScript file -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
+
+    <!-- 5. Our custom JavaScript file -->
+    <script src="map.js"></script>
+
+</body>
+</html>
