@@ -1,0 +1,9 @@
+/* If you want to add specific signup page styles */
+.form-group input[type="password"] {
+  margin-bottom: 0.5rem;
+}
+
+.remember-me {
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
